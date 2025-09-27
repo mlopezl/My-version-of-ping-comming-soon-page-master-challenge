@@ -105,7 +105,7 @@ body{
     color: var(--Pale-Blue);
 }
 
-.input__error{
+.is-invalid{
     border: 1px solid var(--Light-Red);
     margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@ body{
     opacity: 80%;
 }
 
-.error__text{
+.error__paragraph{
     font-size: 0.6rem;
     color: var(--Light-Red);
     position: absolute;
@@ -144,7 +144,7 @@ body{
     left: 20px;
 }
 
-.hide{
+.error-text{
     display: none;
 }
 
@@ -201,6 +201,10 @@ body{
 .footer p{
     color: var(--Gray);
     font-size: 0.6rem;
+}
+
+.no-margin{
+    margin: 0;
 }
 
 @media(max-width: 450px){
