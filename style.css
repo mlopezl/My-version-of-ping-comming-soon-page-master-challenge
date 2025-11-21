@@ -238,5 +238,6 @@ body{
 
     .error__text{
         left: 50px;
+        margin-bottom: 10px;
     }
 }
